@@ -79,6 +79,13 @@ public/
 └── images/                  # Gallery and profile images
 ```
 
+## Minecraft (Eaglercraft)
+
+Open **Minecraft** from the Dock or Launchpad. The game runs inside a normal app window and saves worlds in the browser.
+
+- Click inside the game to capture the mouse; press `Esc` to release it.
+- If the mouse does not get captured (some browsers block pointer lock inside frames), use **Capture mouse**, **Fullscreen**, or **New tab** in the bottom-right corner of the window.
+
 ## Credits
 
 Based on [MacOS-Web-Simulator](https://github.com/LikhithSP/MacOS-Web-Simulator) by [LikhithSP](https://github.com/LikhithSP). App icons are loaded from the macOS Icons project and Wikimedia Commons; wallpapers and music belong to their respective owners and are included for demonstration purposes only.
