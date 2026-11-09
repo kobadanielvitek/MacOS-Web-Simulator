@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useAppStore } from "../store/Appstore";
 import { LayoutGrid, ChevronDown, Plus } from "lucide-react";
 import { Safari } from "./Safari";
+import Minecraft from "./Minecraft";
 import Spotify from "./Spotify";
 import Settings from "./Settings";
 import MacGallery from "./Gallary";
@@ -116,6 +117,12 @@ export default function Launchpad({ windowId }) {
       label: "Safari",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Safari__MacOS_Tahoe__utug9Rt8g6_lowResPng-e86f84b6e9.png",
       comp: <Safari />,
+    },
+    {
+      appId: "Minecraft",
+      label: "Minecraft",
+      icon: `${import.meta.env.BASE_URL}icons/minecraft.svg`,
+      comp: <Minecraft />,
     },
     {
       appId: "Messages",
@@ -247,7 +254,7 @@ export default function Launchpad({ windowId }) {
       title: "Suggestions",
       actionLabel: "Show More",
       actionLabelActive: "Show Less",
-      apps: getAppsByList(["Safari", "Music", "Notes", "Photos", "Calendar"]),
+      apps: getAppsByList(["Safari", "Minecraft", "Music", "Notes", "Photos", "Calendar"]),
     },
     {
       id: "productivity",

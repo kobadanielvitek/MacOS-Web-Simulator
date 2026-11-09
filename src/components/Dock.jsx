@@ -16,6 +16,7 @@ import FaceTime from "../app/FaceTime";
 import PhoneApp from "../app/Phone";
 import CalendarApp from "../app/Calendar";
 import RemindersApp from "../app/Reminders";
+import Minecraft from "../app/Minecraft";
 
 import { GlassSurface } from "./ui/glass-surface";
 
@@ -126,6 +127,12 @@ export default function Dock() {
       label: "Safari",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Safari__MacOS_Tahoe__utug9Rt8g6_lowResPng-e86f84b6e9.png",
       comp: <Safari />,
+    },
+    {
+      id: "Minecraft",
+      label: "Minecraft",
+      icon: `${import.meta.env.BASE_URL}icons/minecraft.svg`,
+      comp: <Minecraft />,
     },
     {
       id: "Messages",

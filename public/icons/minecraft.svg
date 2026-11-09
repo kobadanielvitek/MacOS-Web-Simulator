@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <rect width="64" height="64" rx="10" fill="#121212"/>
+  <!-- top grass face -->
+  <polygon points="32,7 57,20 32,33 7,20" fill="#7bbf4a"/>
+  <polygon points="32,7 57,20 44,27 32,20" fill="#8ed05a"/>
+  <polygon points="32,7 7,20 20,27 32,20" fill="#6fae42"/>
+  <!-- left dirt face -->
+  <polygon points="7,20 32,33 32,57 7,44" fill="#8a5a2b"/>
+  <!-- right dirt face -->
+  <polygon points="57,20 32,33 32,57 57,44" fill="#6d451f"/>
+  <!-- grass overhang on the side faces -->
+  <polygon points="7,20 32,33 32,38 7,25" fill="#5f9c39"/>
+  <polygon points="57,20 32,33 32,38 57,25" fill="#4e822f"/>
+  <!-- pixel details on dirt -->
+  <rect x="13" y="33" width="4" height="4" fill="#7a4e24"/>
+  <rect x="21" y="42" width="4" height="4" fill="#9a6634"/>
+  <rect x="15" y="46" width="4" height="4" fill="#6f451e"/>
+  <rect x="41" y="36" width="4" height="4" fill="#5d3a18"/>
+  <rect x="47" y="45" width="4" height="4" fill="#7d5026"/>
+  <rect x="38" y="47" width="4" height="4" fill="#54330f"/>
+  <!-- grass pixels on top -->
+  <rect x="24" y="14" width="4" height="4" fill="#5f9c39"/>
+  <rect x="38" y="17" width="4" height="4" fill="#a4dd6b"/>
+  <rect x="30" y="22" width="4" height="4" fill="#5f9c39"/>
+</svg>

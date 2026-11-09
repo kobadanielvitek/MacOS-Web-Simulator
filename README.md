@@ -18,6 +18,7 @@ A fully interactive macOS-style desktop that runs in the browser. It includes a 
 - **Notes** — Apple Notes-style editor with folders, search and autosave
 - **Photos** — gallery with the ability to set any image as the wallpaper
 - **Music** — local playlist player with lock-screen controls
+- **Minecraft** — a full Eaglercraft build running inside its own window (offline-capable 1.8-style game, world saves in the browser)
 - **Settings** — System Settings replica with "About This Mac"
 - **Editable profile** — change the lock-screen name and avatar (saved in `localStorage`)
 
@@ -74,6 +75,7 @@ src/
 public/
 ├── Wallpaper/               # Desktop and lock-screen wallpapers
 ├── icons/                   # Dock and app icons
+├── games/                   # Eaglercraft (Minecraft) HTML build
 └── images/                  # Gallery and profile images
 ```
 

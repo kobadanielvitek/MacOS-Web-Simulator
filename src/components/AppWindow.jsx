@@ -26,8 +26,9 @@ export default function AppWindow({ window: win }) {
   const isPhone = win.appId === "Phone";
   const isContacts = win.appId === "Contacts";
   const isReminders = win.appId === "Reminders";
-  const initialWidth = (isMail || isMaps || isFaceTime) ? screenWidth * 0.65 : (isMessages || isFinder || isPhone || isContacts || isReminders) ? screenWidth * 0.55 : isLaunchpad ? screenWidth * 0.45 : screenWidth * 0.7;
-  const initialHeight = (isMessages || isFinder || isMail || isMaps || isFaceTime || isPhone || isContacts || isReminders) ? screenHeight * 0.72 : isLaunchpad ? screenHeight * 0.65 : screenHeight * 0.76;
+  const isMinecraft = win.appId === "Minecraft";
+  const initialWidth = (isMail || isMaps || isFaceTime) ? screenWidth * 0.65 : (isMessages || isFinder || isPhone || isContacts || isReminders) ? screenWidth * 0.55 : isLaunchpad ? screenWidth * 0.45 : isMinecraft ? screenWidth * 0.85 : screenWidth * 0.7;
+  const initialHeight = (isMessages || isFinder || isMail || isMaps || isFaceTime || isPhone || isContacts || isReminders) ? screenHeight * 0.72 : isLaunchpad ? screenHeight * 0.65 : isMinecraft ? screenHeight * 0.82 : screenHeight * 0.76;
   const initialX = Math.max(50, (screenWidth - initialWidth) / 2);
   const initialY = Math.max(40, (screenHeight - initialHeight) / 2 - 20);
 
