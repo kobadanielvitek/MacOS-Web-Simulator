@@ -84,7 +84,8 @@ public/
 Open **Minecraft** from the Dock or Launchpad. The game runs inside a normal app window and saves worlds in the browser.
 
 - Click inside the game to capture the mouse; press `Esc` to release it.
-- If the mouse does not get captured (some browsers block pointer lock inside frames), use **Capture mouse**, **Fullscreen**, or **New tab** in the bottom-right corner of the window.
+- If the game cannot grab the mouse (some browsers block pointer lock inside frames), a **Mouse is not captured** prompt appears — click **Capture mouse**, or just click anywhere in the game.
+- Still no luck? Use **Fullscreen** or **New tab** in the bottom-right corner of the window.
 
 ## Credits
 
